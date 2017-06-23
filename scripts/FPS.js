@@ -1,5 +1,3 @@
-//Рахує FPS та виводить в консоль.
-
 let frameCount = function _fc(timeStart){
         
         let now = performance.now();
@@ -14,7 +12,7 @@ let frameCount = function _fc(timeStart){
             _fc.fps = _fc.counter;
             _fc.counter = 0;
             timeStart = now; 
-            console.log(_fc.fps);
+            //console.log(_fc.fps);
         
 
         }
